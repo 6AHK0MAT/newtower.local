@@ -1,0 +1,51 @@
+body {
+    /*background-image: url('/0370.png'); /* Путь к фоновому изображению */
+    background-attachment: fixed; /* Фиксируем фон веб-страницы */
+}
+
+.header-0370{
+    background: linear-gradient(0deg, #264190, #6b89c5);
+    height: 125px; !important;
+}
+.menu-0370{
+    background: linear-gradient(0deg, #264190, #6b89c5);
+    margin-top: -20px;
+}
+.img-0370{
+    margin-top: 20px;
+}
+.phone-0370{
+    margin-top: 30px;
+    float: right;
+}
+.panel-title{
+    text-align: center;
+}
+.collapse{
+    z-index: 999;
+}
+.z-0370{
+    z-index: 500;
+}
+.carousel-indicators {
+    bottom:-30px;
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin: 3px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    background-color: #337ab7;
+    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);
+ }
+.carousel-indicators .active {
+    width: 12px;
+    height: 12px;
+    margin: 3px;
+    background-color: #ed1c24;
+}
