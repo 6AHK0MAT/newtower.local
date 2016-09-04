@@ -50,40 +50,23 @@
 </head>
 <body>
 
-<!--
-<div class="navbar navbar-inverse navbar-static-top header-0370">
-    <div class="container">
-        <div class="navbar-header">
-            <a class="navbar-header img-0370" href="index.php"><img src="images/0370_150dpi.png"></a>
-        </div>
-        <div class="collapse navbar-collapse phone-0370">
-            <img src="images/red_phone_150dpi.png">
-        </div>
-    </div>
-</div>
--->
-
 <!--Вставляем слайдер-->
 <?php
 include "slider.php";
 ?>
-<div class="navbar navbar-static-top">
+<div class="navbar navbar-static-top ">
 
     <div class="container">
-
-
-        <div class="navbar-header">
-
+        <div class="navbar-header ">
             <button class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
-
                 <span class="sr-only">Открыть навигацию</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
         </div>
-        <div class="collapse navbar-collapse" id="responsive-menu">
-            <ul class="nav navbar-nav">
+        <div class="collapse navbar-collapse tower-menu" id="responsive-menu">
+            <ul class="nav navbar-nav ">
                     <li><a href="#">Главная</a></li>
                     <li><a href="#">Прайс</a></li>
                     <li><a href="#">Информация</a></li>
@@ -95,41 +78,40 @@ include "slider.php";
 </div>
 
 
-
 <div class="container">
     <div class="row">
         <div class="col-lg-12">
             <div class="m_header"><h1><p align="center"> Наши автовышки</p></h1></div>
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 ">
+        <div class="col-lg-3 col-md-4 col-sm-6 tower-img">
             <p align="center">Автовышка 15 м</p>
             <img class ="tbl_img" src="images/av-1.png" alt="" width="auto" height="auto">
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 ">
+        <div class="col-lg-3 col-md-4 col-sm-6 tower-img">
             <p align="center">ISUZU ELF 15м</p>
             <img class ="tbl_img" src="images/av-2.png" alt="" width="auto" height="auto">
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 ">
+        <div class="col-lg-3 col-md-4 col-sm-6 tower-img">
             <p align="center">Mitsubishi Fuso 19м</p>
             <img class ="tbl_img" src="images/av-3.png" alt="" width="auto" height="auto">
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 ">
+        <div class="col-lg-3 col-md-4 col-sm-6 tower-img">
             <p align="center">ISUZU Forvard 19м</p>
             <img class ="tbl_img" src="images/av-4.png" alt="" width="auto" height="auto">
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 ">
+        <div class="col-lg-3 col-md-4 col-sm-6 tower-img">
             <p align="center">КамАЗ-4326 22м</p>
             <img class ="tbl_img" src="images/av-5.png" alt="" width="auto" height="auto">
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 ">
+        <div class="col-lg-3 col-md-4 col-sm-6 tower-img">
             <p align="center">ISUZU Forvard 25м</p>
             <img class ="tbl_img" src="images/av-6.png" alt="" width="auto" height="auto">
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 ">
+        <div class="col-lg-3 col-md-4 col-sm-6 tower-img">
             <p align="center">Hyundai HD 30м</p>
             <img class ="tbl_img" src="images/av-7.png" alt="" width="auto" height="auto">
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 ">
+        <div class="col-lg-3 col-md-4 col-sm-6 tower-img">
             <p align="center">КамАЗ-53215 34м</p>
             <img class ="tbl_img" src="images/av-8.png" alt="" width="auto" height="auto">
         </div>

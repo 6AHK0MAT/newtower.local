@@ -49,3 +49,23 @@ body {
     margin: 3px;
     background-color: #ed1c24;
 }
+.tower-menu ul{
+    /*text-align: center;*/
+    /*margin: 0 auto;*/
+    float:left; /* влево */
+    left:50%; /* смещаем влево на 50% */
+    margin:0 auto; /* выравниваем */
+    position:relative; /* для элементов списка */
+}
+.tower-menu ul li{
+    float:left; /* влево */
+    position:relative; /* позиционируем относительно родителя */
+    right:50%; /* главный момент, отступаем справа на 50% */
+}
+
+.tower-img img{
+    border: 1px solid black;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
