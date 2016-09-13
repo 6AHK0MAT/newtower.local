@@ -5,7 +5,7 @@
     <link rel="shortcut icon" href="/images/ico_tower.ico" type="image/x-icon">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="reywords" content="автовышки, автовышка, услуги автовышек, Томск, Северск, автовышкин, Автовышкин, услуги автовышек в Томске">
+    <meta name="keywords" content="автовышки, автовышка, услуги автовышек, Томск, Северск, автовышкин, Автовышкин, услуги автовышек в Томске">
     <meta name="description" content="Услуги автовышек в Томске и Северске">
     <meta name="author" content="6AHK0MAT">
 
@@ -67,57 +67,21 @@ include "slider.php";
         </div>
         <div class="collapse navbar-collapse tower-menu" id="responsive-menu">
             <ul class="nav navbar-nav ">
-                    <li><a href="#">Главная</a></li>
-                    <li><a href="#">Прайс</a></li>
-                    <li><a href="#">Информация</a></li>
-                    <li><a href="#">Контакты</a></li>
-                    <li><a href="#">Заказ автовышки</a></li>
+                    <li><a href="index.php">Главная</a></li>
+                    <li><a href="price.php">Прайс</a></li>
+                    <li><a href="information.php">Информация</a></li>
+                    <li><a href="contacts.php">Контакты</a></li>
+                    <li><a href="zakaz.php">Заказ автовышки</a></li>
             </ul>
         </div>
     </div>
 </div>
 
 
-<div class="container">
-    <div class="row">
-        <div class="col-lg-12">
-            <div class="m_header"><h1><p align="center"> Наши автовышки</p></h1></div>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 tower-img">
-            <p align="center">Автовышка 15 м</p>
-            <img class ="tbl_img" src="images/av-1.png" alt="" width="auto" height="auto">
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 tower-img">
-            <p align="center">ISUZU ELF 15м</p>
-            <img class ="tbl_img" src="images/av-2.png" alt="" width="auto" height="auto">
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 tower-img">
-            <p align="center">Mitsubishi Fuso 19м</p>
-            <img class ="tbl_img" src="images/av-3.png" alt="" width="auto" height="auto">
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 tower-img">
-            <p align="center">ISUZU Forvard 19м</p>
-            <img class ="tbl_img" src="images/av-4.png" alt="" width="auto" height="auto">
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 tower-img">
-            <p align="center">КамАЗ-4326 22м</p>
-            <img class ="tbl_img" src="images/av-5.png" alt="" width="auto" height="auto">
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 tower-img">
-            <p align="center">ISUZU Forvard 25м</p>
-            <img class ="tbl_img" src="images/av-6.png" alt="" width="auto" height="auto">
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 tower-img">
-            <p align="center">Hyundai HD 30м</p>
-            <img class ="tbl_img" src="images/av-7.png" alt="" width="auto" height="auto">
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 tower-img">
-            <p align="center">КамАЗ-53215 34м</p>
-            <img class ="tbl_img" src="images/av-8.png" alt="" width="auto" height="auto">
-        </div>
-    </div>
-</div>
+<?php include "include/avtovyshki.php" ?>
 
+<br>
+<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=tdDUW6zGahwdhrWFZy9E18jaYKI2vwgE&amp;width=100%&amp;height=400&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script>
 
 </body>
 </html>
